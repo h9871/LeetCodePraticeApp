@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC24F4CC24CFAE6000121FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4CB24CFAE6000121FD1 /* AppDelegate.swift */; };
+		BC24F4CE24CFAE6000121FD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4CD24CFAE6000121FD1 /* SceneDelegate.swift */; };
+		BC24F4D024CFAE6000121FD1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4CF24CFAE6000121FD1 /* MainViewController.swift */; };
+		BC24F4D324CFAE6000121FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC24F4D124CFAE6000121FD1 /* Main.storyboard */; };
+		BC24F4D524CFAE6200121FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC24F4D424CFAE6200121FD1 /* Assets.xcassets */; };
+		BC24F4D824CFAE6200121FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC24F4D624CFAE6200121FD1 /* LaunchScreen.storyboard */; };
+		BC24F4E124CFAE9C00121FD1 /* LeetCodeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4E024CFAE9C00121FD1 /* LeetCodeData.swift */; };
+		BC24F4E424CFAF4400121FD1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4E324CFAF4400121FD1 /* DetailViewController.swift */; };
+		BC24F4E624CFAF6600121FD1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4E524CFAF6600121FD1 /* BaseViewController.swift */; };
+		BC24F4E924CFB08C00121FD1 /* MainViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4E824CFB08C00121FD1 /* MainViewDataSource.swift */; };
+		BC24F4EE24CFB86E00121FD1 /* DetailViewController+ExtensionMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4ED24CFB86E00121FD1 /* DetailViewController+ExtensionMethods.swift */; };
+		BC24F4F024CFBB4B00121FD1 /* MainViewController+ExtensionDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4EF24CFBB4B00121FD1 /* MainViewController+ExtensionDatas.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC24F4C824CFAE6000121FD1 /* LeetCodeAnswerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeAnswerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC24F4CB24CFAE6000121FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC24F4CD24CFAE6000121FD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC24F4CF24CFAE6000121FD1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BC24F4D224CFAE6000121FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC24F4D424CFAE6200121FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC24F4D724CFAE6200121FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC24F4D924CFAE6200121FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC24F4E024CFAE9C00121FD1 /* LeetCodeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeData.swift; sourceTree = "<group>"; };
+		BC24F4E324CFAF4400121FD1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BC24F4E524CFAF6600121FD1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BC24F4E824CFB08C00121FD1 /* MainViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewDataSource.swift; sourceTree = "<group>"; };
+		BC24F4ED24CFB86E00121FD1 /* DetailViewController+ExtensionMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+ExtensionMethods.swift"; sourceTree = "<group>"; };
+		BC24F4EF24CFBB4B00121FD1 /* MainViewController+ExtensionDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+ExtensionDatas.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC24F4C524CFAE6000121FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC24F4BF24CFAE6000121FD1 = {
+			isa = PBXGroup;
+			children = (
+				BC24F4CA24CFAE6000121FD1 /* LeetCodeAnswerApp */,
+				BC24F4C924CFAE6000121FD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC24F4C924CFAE6000121FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC24F4C824CFAE6000121FD1 /* LeetCodeAnswerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC24F4CA24CFAE6000121FD1 /* LeetCodeAnswerApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC24F4EC24CFB84C00121FD1 /* Extenstions */,
+				BC24F4E724CFB06E00121FD1 /* DataSource */,
+				BC24F4E224CFAF2600121FD1 /* ViewController */,
+				BC24F4DF24CFAE7900121FD1 /* Model */,
+				BC24F4CB24CFAE6000121FD1 /* AppDelegate.swift */,
+				BC24F4CD24CFAE6000121FD1 /* SceneDelegate.swift */,
+				BC24F4D124CFAE6000121FD1 /* Main.storyboard */,
+				BC24F4D424CFAE6200121FD1 /* Assets.xcassets */,
+				BC24F4D624CFAE6200121FD1 /* LaunchScreen.storyboard */,
+				BC24F4D924CFAE6200121FD1 /* Info.plist */,
+			);
+			path = LeetCodeAnswerApp;
+			sourceTree = "<group>";
+		};
+		BC24F4DF24CFAE7900121FD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC24F4E024CFAE9C00121FD1 /* LeetCodeData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC24F4E224CFAF2600121FD1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC24F4CF24CFAE6000121FD1 /* MainViewController.swift */,
+				BC24F4E324CFAF4400121FD1 /* DetailViewController.swift */,
+				BC24F4E524CFAF6600121FD1 /* BaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BC24F4E724CFB06E00121FD1 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				BC24F4E824CFB08C00121FD1 /* MainViewDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		BC24F4EC24CFB84C00121FD1 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				BC24F4ED24CFB86E00121FD1 /* DetailViewController+ExtensionMethods.swift */,
+				BC24F4EF24CFBB4B00121FD1 /* MainViewController+ExtensionDatas.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC24F4C724CFAE6000121FD1 /* LeetCodeAnswerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC24F4DC24CFAE6200121FD1 /* Build configuration list for PBXNativeTarget "LeetCodeAnswerApp" */;
+			buildPhases = (
+				BC24F4C424CFAE6000121FD1 /* Sources */,
+				BC24F4C524CFAE6000121FD1 /* Frameworks */,
+				BC24F4C624CFAE6000121FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetCodeAnswerApp;
+			productName = LeetCodeAnswerApp;
+			productReference = BC24F4C824CFAE6000121FD1 /* LeetCodeAnswerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC24F4C024CFAE6000121FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "유현재";
+				TargetAttributes = {
+					BC24F4C724CFAE6000121FD1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BC24F4C324CFAE6000121FD1 /* Build configuration list for PBXProject "LeetCodeAnswerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC24F4BF24CFAE6000121FD1;
+			productRefGroup = BC24F4C924CFAE6000121FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC24F4C724CFAE6000121FD1 /* LeetCodeAnswerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC24F4C624CFAE6000121FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC24F4D824CFAE6200121FD1 /* LaunchScreen.storyboard in Resources */,
+				BC24F4D524CFAE6200121FD1 /* Assets.xcassets in Resources */,
+				BC24F4D324CFAE6000121FD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC24F4C424CFAE6000121FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC24F4E124CFAE9C00121FD1 /* LeetCodeData.swift in Sources */,
+				BC24F4D024CFAE6000121FD1 /* MainViewController.swift in Sources */,
+				BC24F4E424CFAF4400121FD1 /* DetailViewController.swift in Sources */,
+				BC24F4CC24CFAE6000121FD1 /* AppDelegate.swift in Sources */,
+				BC24F4EE24CFB86E00121FD1 /* DetailViewController+ExtensionMethods.swift in Sources */,
+				BC24F4CE24CFAE6000121FD1 /* SceneDelegate.swift in Sources */,
+				BC24F4E924CFB08C00121FD1 /* MainViewDataSource.swift in Sources */,
+				BC24F4F024CFBB4B00121FD1 /* MainViewController+ExtensionDatas.swift in Sources */,
+				BC24F4E624CFAF6600121FD1 /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC24F4D124CFAE6000121FD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC24F4D224CFAE6000121FD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC24F4D624CFAE6200121FD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC24F4D724CFAE6200121FD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC24F4DA24CFAE6200121FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC24F4DB24CFAE6200121FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC24F4DD24CFAE6200121FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeetCodeAnswerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhj.LeetCodeAnswerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC24F4DE24CFAE6200121FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeetCodeAnswerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhj.LeetCodeAnswerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC24F4C324CFAE6000121FD1 /* Build configuration list for PBXProject "LeetCodeAnswerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC24F4DA24CFAE6200121FD1 /* Debug */,
+				BC24F4DB24CFAE6200121FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC24F4DC24CFAE6200121FD1 /* Build configuration list for PBXNativeTarget "LeetCodeAnswerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC24F4DD24CFAE6200121FD1 /* Debug */,
+				BC24F4DE24CFAE6200121FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC24F4C024CFAE6000121FD1 /* Project object */;
+}
