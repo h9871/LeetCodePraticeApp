@@ -51,11 +51,9 @@ extension DetailViewController {
     ///
     private func processCode(_ dataNumber: Int) {
         switch dataNumber {
-        case 1:
-            let runTime = self.measureTime {
-                self.leetCode1464()
-            }
-            self.runTimeLabel.text = runTime
+        case 1: self.leetCode1464()
+        case 2: self.leetCode1480()
+        case 3: self.leetCode1528()
         default:
             print("No Data!!!")
         }

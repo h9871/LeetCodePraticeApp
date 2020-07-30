@@ -19,6 +19,7 @@
 		BC24F4E924CFB08C00121FD1 /* MainViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4E824CFB08C00121FD1 /* MainViewDataSource.swift */; };
 		BC24F4EE24CFB86E00121FD1 /* DetailViewController+ExtensionMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4ED24CFB86E00121FD1 /* DetailViewController+ExtensionMethods.swift */; };
 		BC24F4F024CFBB4B00121FD1 /* MainViewController+ExtensionDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24F4EF24CFBB4B00121FD1 /* MainViewController+ExtensionDatas.swift */; };
+		BCB2179E24D26170004F0C68 /* String+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB2179D24D26170004F0C68 /* String+Formatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BC24F4E824CFB08C00121FD1 /* MainViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewDataSource.swift; sourceTree = "<group>"; };
 		BC24F4ED24CFB86E00121FD1 /* DetailViewController+ExtensionMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+ExtensionMethods.swift"; sourceTree = "<group>"; };
 		BC24F4EF24CFBB4B00121FD1 /* MainViewController+ExtensionDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+ExtensionDatas.swift"; sourceTree = "<group>"; };
+		BCB2179D24D26170004F0C68 /* String+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Formatter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				BC24F4ED24CFB86E00121FD1 /* DetailViewController+ExtensionMethods.swift */,
 				BC24F4EF24CFBB4B00121FD1 /* MainViewController+ExtensionDatas.swift */,
+				BCB2179D24D26170004F0C68 /* String+Formatter.swift */,
 			);
 			path = Extenstions;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				BC24F4EE24CFB86E00121FD1 /* DetailViewController+ExtensionMethods.swift in Sources */,
 				BC24F4CE24CFAE6000121FD1 /* SceneDelegate.swift in Sources */,
 				BC24F4E924CFB08C00121FD1 /* MainViewDataSource.swift in Sources */,
+				BCB2179E24D26170004F0C68 /* String+Formatter.swift in Sources */,
 				BC24F4F024CFBB4B00121FD1 /* MainViewController+ExtensionDatas.swift in Sources */,
 				BC24F4E624CFAF6600121FD1 /* BaseViewController.swift in Sources */,
 			);

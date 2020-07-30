@@ -20,7 +20,52 @@ extension DetailViewController {
         }
         // inner func end
         
-        let result = maxProduct([3,4,5,2])
+        var result = 0
+        let runTime = self.measureTime {
+            result = maxProduct([3,4,5,2])
+        }
+        self.runTimeLabel.text = runTime
         self.resultLabel.text = String(result)
+    }
+    
+    func leetCode1480() {
+        // inner func
+        func runningSum(_ nums: [Int]) -> [Int] {
+            var sumIndex = 0
+            var resultArray: [Int] = []
+            nums.forEach { (index) in
+                sumIndex += index
+                resultArray.append(sumIndex)
+            }
+            return resultArray
+        }
+        // inner func end
+        
+        var result: [Int] = []
+        let runTime = self.measureTime {
+            result = runningSum([1,2,3,4])
+        }
+        self.runTimeLabel.text = runTime
+        self.resultLabel.text = String(result)
+    }
+    
+    func leetCode1528() {
+        // inner func
+        func restoreString(_ s: String, _ indices: [Int]) -> String {
+            var result = s
+            for (index, element) in s.enumerated() {
+                result.remove(at: result.index(result.startIndex, offsetBy: indices[index]))
+                result.insert(element, at: result.index(result.startIndex, offsetBy: indices[index]))
+            }
+            return result
+        }
+        // inner func end
+        
+        var result = ""
+        let runTime = self.measureTime {
+            result = restoreString("codeleet", [4,5,6,7,0,2,1,3])
+        }
+        self.runTimeLabel.text = runTime
+        self.resultLabel.text = result
     }
 }

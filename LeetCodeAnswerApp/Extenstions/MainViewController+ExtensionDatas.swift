@@ -41,5 +41,73 @@ extension MainViewController {
         """
         data1.input = "[3,4,5,2]"
         self.data?.append(data1)
+        
+        let data2 = LeetCodeData()
+        data2.num = 2
+        data2.title = "LeetCode1480"
+        data2.description =
+        """
+        Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+        Return the running sum of nums.
+
+        Example 1:
+        
+        Input: nums = [1,2,3,4] Output: [1,3,6,10] Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
+        
+        Example 2:
+
+        Input: nums = [1,1,1,1,1] Output: [1,2,3,4,5] Explanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].
+
+        Example 3:
+
+        Input: nums = [3,1,2,10,1] Output: [3,4,6,16,17]
+        
+        Constraints:
+
+        1 <= nums.length <= 1000
+        -10^6 <= nums[i] <= 10^6
+        """
+        data2.input = "[1,2,3,4]"
+        self.data?.append(data2)
+        
+        let data3 = LeetCodeData()
+        data3.num = 3
+        data3.title = "LeetCode1528"
+        data3.description =
+        """
+        Given a string s and an integer array indices of the same length.
+        The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.
+        Return the shuffled string.
+
+        Example 1:
+
+        Input: s = "codeleet", indices = [4,5,6,7,0,2,1,3] Output: "leetcode" Explanation: As shown, "codeleet" becomes "leetcode" after shuffling.
+
+        Example 2:
+
+        Input: s = "abc", indices = [0,1,2] Output: "abc" Explanation: After shuffling, each character remains in its position.
+
+        Example 3:
+
+        Input: s = "aiohn", indices = [3,1,4,2,0] Output: "nihao"
+
+        Example 4:
+
+        Input: s = "aaiougrt", indices = [4,0,2,6,7,3,1,5] Output: "arigatou"
+
+        Example 5:
+
+        Input: s = "art", indices = [1,0,2] Output: "rat"
+
+        Constraints:
+
+        s.length == indices.length == n
+        1 <= n <= 100
+        s contains only lower-case English letters.
+        0 <= indices[i] < n
+        All values of indices are unique (i.e. indices is a permutation of the integers from 0 to n - 1).
+        """
+        data3.input = "codeleet, [4,5,6,7,0,2,1,3]"
+        self.data?.append(data3)
     }
 }
