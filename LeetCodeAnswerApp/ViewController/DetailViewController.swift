@@ -54,6 +54,7 @@ extension DetailViewController {
         case 1: self.leetCode1464()
         case 2: self.leetCode1480()
         case 3: self.leetCode1528()
+        case 4: self.leetCodeAugust1()
         default:
             print("No Data!!!")
         }

@@ -68,4 +68,34 @@ extension DetailViewController {
         self.runTimeLabel.text = runTime
         self.resultLabel.text = result
     }
+    
+    func leetCodeAugust1() {
+        // inner func
+        func detectCapitalUse(_ word: String) -> Bool {
+            guard let isfirstCharUpper = word.first?.isUppercase else {
+                print("error Data!")
+                return false
+            }
+            var flag = 0
+            word.forEach { (c) in
+                if c.isUppercase {
+                    flag += 1
+                } else if c.isLowercase {
+                    flag -= 1
+                }
+            }
+            return isfirstCharUpper ?
+                (flag == word.count) || (flag == -(word.count - 2))
+                : (flag == -(word.count))
+        }
+        // inner func end
+        
+        var result = false
+        let runTime = self.measureTime {
+            result = detectCapitalUse("USA")
+        }
+        
+        self.runTimeLabel.text = runTime
+        self.resultLabel.text = String(result)
+    }
 }
